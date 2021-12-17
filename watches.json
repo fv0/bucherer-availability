@@ -2,22 +2,57 @@
    {
       "brand": "Roger Dubuis",
       "model": "Velvet",
-      "label": "NEU IM VERKAUF",
       "price": "31610 CHF",
-      "pid": "1350-455-9"
+      "pid": "1350-455-9",
+      "availableIn": "Genève, Rue du Rhône"
    },
    {
       "brand": "Chopard",
       "model": "L.U.C.",
-      "label": "NEU IM VERKAUF",
       "price": "106260 CHF",
-      "pid": "1350-353-4"
+      "pid": "1350-353-4",
+      "availableIn": "Bern, Marktgasse"
    },
    {
       "brand": "Omega",
       "model": "Speedmaster Date Certified Pre Owned",
-      "label": "NEU IM VERKAUF",
       "price": "2900 CHF",
-      "pid": "1351-004-0"
+      "pid": "1351-004-0",
+      "availableIn": null
+   },
+   {
+      "brand": "Breguet",
+      "model": "La Marine",
+      "price": "22200 CHF",
+      "pid": "1349-324-8",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Deepsea Certified Pre Owned",
+      "price": "13500 CHF",
+      "pid": "1351-018-6",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Submariner Certified Pre Owned",
+      "price": "11000 CHF",
+      "pid": "1351-007-3",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Prof. Certified Pre Owned",
+      "price": "5100 CHF",
+      "pid": "1350-723-0",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Pearlmaster Certified Pre Owned",
+      "price": "14500 CHF",
+      "pid": "1350-144-7",
+      "availableIn": "Zürich, Bahnhofstrasse"
    }
 ]

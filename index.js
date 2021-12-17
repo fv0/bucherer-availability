@@ -6,7 +6,7 @@ import fetch from "node-fetch";
   // Helper URLs
   const urlAllProducts =
     "https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
-  const amountOfProductsToScrape = 100;
+  const amountOfProductsToScrape = 10;
   const scrapeUrl = urlAllProducts + amountOfProductsToScrape;
 
   // Setup Puppeteer
@@ -21,31 +21,30 @@ import fetch from "node-fetch";
     var brand = document.querySelectorAll(".m-product-tile__product-brand");
     var model = document.querySelectorAll(".m-product-tile__product-model");
     var price = document.querySelectorAll(".m-product-price__total .value");
-    var label = document.querySelectorAll(".m-product-tile__label-text");
 
     var watchArray = [];
 
-    for (var i = 0; i < productList.length; i++) {
+    async function getAvailabilities(pid) {
+      // Request availability for this watch in all stores based on the unique product ID (PID).
+      const response = await fetch(
+        "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_CH/Store-Availability?pid=" +
+          pid
+      );
+      const data = await response.json();
 
-      async function getAvailabilities(pid) {
-        // Request availability for this watch in all stores based on the unique product ID (PID).
-        const response = await fetch(
-          "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_CH/Store-Availability?pid=" +
-            pid
-        );
-        const data = await response.json();
+      let availabilityResponse = null;
 
-        let returnvalue = "Not available in stores.";
-
-        for (var i = 0; i < data.stores.length; i++) {
-          // Check which store has this watch in stock
-          if (data.stores[i].availability.inStock === true) {
-            returnvalue = data.stores[i].name;
-          }
+      for (var i = 0; i < data.stores.length; i++) {
+        // Check which store has this watch in stock
+        if (data.stores[i].availability.inStock === true) {
+          availabilityResponse = data.stores[i].name;
         }
-
-        return returnvalue;
       }
+
+      return availabilityResponse;
+    }
+
+    for (var i = 0; i < productList.length; i++) {
 
       // Get product ID
       const pid = productList[i].getAttribute("data-pid");
@@ -53,13 +52,10 @@ import fetch from "node-fetch";
       watchArray[i] = {
         brand: brand[i].innerText,
         model: model[i].innerText,
-        // label: label[i].innerText,
         price: Number(price[i].getAttribute("content")) + " CHF",
         pid: pid,
         availableIn: await getAvailabilities(pid)
       };
-
-      // watchArray[i].availableIn = await getAvailabilities(pid);
 
     }
     return watchArray;
