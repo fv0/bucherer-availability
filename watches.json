@@ -1,0 +1,58 @@
+[
+   {
+      "brand": "Roger Dubuis",
+      "model": "Velvet",
+      "label": "NEU IM VERKAUF",
+      "price": "31610 CHF",
+      "pid": "1350-455-9"
+   },
+   {
+      "brand": "Chopard",
+      "model": "L.U.C.",
+      "label": "NEU IM VERKAUF",
+      "price": "106260 CHF",
+      "pid": "1350-353-4"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Date Certified Pre Owned",
+      "label": "NEU IM VERKAUF",
+      "price": "2900 CHF",
+      "pid": "1351-004-0"
+   },
+   {
+      "brand": "Breguet",
+      "model": "La Marine",
+      "label": "NEU IM VERKAUF",
+      "price": "22200 CHF",
+      "pid": "1349-324-8"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Deepsea Certified Pre Owned",
+      "label": "NEU IM VERKAUF",
+      "price": "13500 CHF",
+      "pid": "1351-018-6"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Submariner Certified Pre Owned",
+      "label": "NEU IM VERKAUF",
+      "price": "11000 CHF",
+      "pid": "1351-007-3"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Prof. Certified Pre Owned",
+      "label": "NEU IM VERKAUF",
+      "price": "5100 CHF",
+      "pid": "1350-723-0"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Pearlmaster Certified Pre Owned",
+      "label": "NEU IM VERKAUF",
+      "price": "14500 CHF",
+      "pid": "1350-144-7"
+   }
+]
