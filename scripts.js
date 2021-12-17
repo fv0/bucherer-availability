@@ -41,6 +41,10 @@ function appendData(data) {
         newData[i].watches[n].price +
         ")";
       list.appendChild(listItem);
+
+      var img = document.createElement("img");
+      img.srcset = newData[i].watches[n].image;
+      listItem.appendChild(img);
     }
   }
 }

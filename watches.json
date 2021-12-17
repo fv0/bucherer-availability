@@ -1,58 +1,642 @@
 [
    {
+      "brand": "Piaget",
+      "model": "Tradition",
+      "price": "24500 CHF",
+      "pid": "1350-446-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1294-028-0_FP.png 1920w",
+      "availableIn": "Zermatt, Bahnhofstrasse"
+   },
+   {
       "brand": "Roger Dubuis",
       "model": "Velvet",
-      "price": "31610 CHF",
-      "pid": "1350-455-9",
-      "availableIn": "Genève, Rue du Rhône"
+      "price": "29540 CHF",
+      "pid": "1350-458-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
    },
    {
       "brand": "Chopard",
       "model": "L.U.C.",
       "price": "106260 CHF",
-      "pid": "1350-353-4",
+      "pid": "1350-352-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/INDEPENDENT/Chopard/Manual/1250-622-8_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Oysterquartz Certified Pre Owned",
+      "price": "15100 CHF",
+      "pid": "1349-951-9",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Quartz/1349-951-9_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Roger Dubuis",
+      "model": "Velvet",
+      "price": "31610 CHF",
+      "pid": "1350-455-9",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1283-099-4_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10800 CHF",
+      "pid": "1350-052-4",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-052-4_FP.png 1920w",
+      "availableIn": "Crans Montana, Rue du Prado"
+   },
+   {
+      "brand": "Breitling",
+      "model": "Navitimer World Certified Pre Owned",
+      "price": "4700 CHF",
+      "pid": "1349-250-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-250-7_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
+   },
+   {
+      "brand": "Piaget",
+      "model": "Limelight",
+      "price": "16910 CHF",
+      "pid": "1350-438-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/RICHEMONT/Piaget/Quartz/1259-161-6_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Glashütte Original",
+      "model": "Sixties",
+      "price": "8700 CHF",
+      "pid": "1350-388-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/SWATCH/Glash%C3%BCtte%20Original/Automatic/0349-016-6_FP.png 1920w",
+      "availableIn": "Bern, Marktgasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Date Certified Pre Owned",
+      "price": "5200 CHF",
+      "pid": "1350-132-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1350-132-3_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Cartier",
+      "model": "Pasha Certified Pre Owned",
+      "price": "3500 CHF",
+      "pid": "1349-703-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1349-703-5_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "5300 CHF",
+      "pid": "1349-878-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-878-7_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Oyster Perpetual Certified Pre Owned",
+      "price": "4500 CHF",
+      "pid": "1349-873-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-873-2_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8600 CHF",
+      "pid": "1349-713-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-713-7_FP.png 1920w",
+      "availableIn": "Locarno, Piazza Grande"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Turn-O-Graph Certified Pre Owned",
+      "price": "7300 CHF",
+      "pid": "1349-758-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-758-0_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Tudor",
+      "model": "Classic Certified Pre Owned",
+      "price": "2400 CHF",
+      "pid": "1348-755-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-755-3_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Reduced Certified Pre Owned",
+      "price": "3600 CHF",
+      "pid": "1349-673-6",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-673-6_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Reduced Certified Pre Owned",
+      "price": "3600 CHF",
+      "pid": "1349-672-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-672-5_FP.png 1920w",
       "availableIn": "Bern, Marktgasse"
    },
    {
       "brand": "Omega",
-      "model": "Speedmaster Date Certified Pre Owned",
-      "price": "2900 CHF",
-      "pid": "1351-004-0",
-      "availableIn": null
+      "model": "Speedmaster Reduced Certified Pre Owned",
+      "price": "3500 CHF",
+      "pid": "1349-676-9",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-676-9_FP.png 1920w",
+      "availableIn": "Zermatt, Bahnhofstrasse"
    },
    {
-      "brand": "Breguet",
-      "model": "La Marine",
-      "price": "22200 CHF",
-      "pid": "1349-324-8",
-      "availableIn": "Zürich, Bahnhofstrasse"
+      "brand": "Omega",
+      "model": "Speedmaster Reduced Certified Pre Owned",
+      "price": "3500 CHF",
+      "pid": "1349-674-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-674-7_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
    },
    {
-      "brand": "Rolex",
-      "model": "Deepsea Certified Pre Owned",
-      "price": "13500 CHF",
-      "pid": "1351-018-6",
-      "availableIn": "Lugano, Via Nassa"
-   },
-   {
-      "brand": "Rolex",
-      "model": "Submariner Certified Pre Owned",
-      "price": "11000 CHF",
-      "pid": "1351-007-3",
+      "brand": "Tudor",
+      "model": "Hydronaut Certified Pre Owned",
+      "price": "2700 CHF",
+      "pid": "1348-917-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1348-917-3_FP.png 1920w",
       "availableIn": "Genève, Rue du Rhône"
    },
    {
       "brand": "Omega",
       "model": "Speedmaster Prof. Certified Pre Owned",
+      "price": "5600 CHF",
+      "pid": "1349-251-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1349-251-8_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "IWC Schaffhausen",
+      "model": "Ingenieur AMG Certified Pre Owned",
+      "price": "8200 CHF",
+      "pid": "1349-241-6",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Automatic/1349-241-6_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "IWC Schaffhausen",
+      "model": "Portugieser Certified Pre Owned",
+      "price": "5700 CHF",
+      "pid": "1348-741-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/RICHEMONT/IWC%20Schaffhausen/Manual/1348-741-7_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Jaeger-LeCoultre",
+      "model": "Master Chronograph Certified Pre Owned",
+      "price": "8300 CHF",
+      "pid": "1348-916-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1348-916-2_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Roger Dubuis",
+      "model": "Velvet",
+      "price": "29540 CHF",
+      "pid": "1350-457-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/Watches/RICHEMONT/Roger%20Dubuis/Automatic/1304-866-5_FP.png 1920w",
+      "availableIn": "Locarno, Piazza Grande"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Moon Phase Certified Pre Owned",
+      "price": "4600 CHF",
+      "pid": "1348-807-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-807-8_FP.png 1920w",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "10700 CHF",
+      "pid": "1348-830-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-830-7_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Submariner Certified Pre Owned",
+      "price": "11000 CHF",
+      "pid": "1349-942-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/Copy%20%20of%201349-942-8_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10900 CHF",
+      "pid": "1348-142-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-142-0_FP.png 1920w",
+      "availableIn": "St. Moritz, Via Maistra"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Sea-Dweller Certified Pre Owned",
+      "price": "10900 CHF",
+      "pid": "1349-755-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1349-755-7_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Cartier",
+      "model": "Pasha Certified Pre Owned",
+      "price": "18000 CHF",
+      "pid": "1348-815-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/RICHEMONT/Cartier/Automatic/1348-815-8_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Date Certified Pre Owned",
+      "price": "2900 CHF",
+      "pid": "1349-677-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1349-677-0_FP.png 1920w",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Breitling",
+      "model": "Navitimer Certified Pre Owned",
+      "price": "5600 CHF",
+      "pid": "1349-240-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/INDEPENDENT/Breitling/Automatic/1349-240-5_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "TAG Heuer",
+      "model": "Aquaracer Certified Pre Owned",
+      "price": "2500 CHF",
+      "pid": "1348-726-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1348-726-8_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
       "price": "5100 CHF",
-      "pid": "1350-723-0",
+      "pid": "1348-200-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-200-3_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "10900 CHF",
+      "pid": "1348-478-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-478-1_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "12000 CHF",
+      "pid": "1348-477-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-477-0_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "De Ville Ladymatic Certified Pre Owned",
+      "price": "22000 CHF",
+      "pid": "1348-470-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-470-3_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "5200 CHF",
+      "pid": "1348-533-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-533-1_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6000 CHF",
+      "pid": "1348-486-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-486-1_FP.png 1920w",
+      "availableIn": "Bern, Marktgasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6200 CHF",
+      "pid": "1348-731-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-731-5_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6200 CHF",
+      "pid": "1347-774-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-774-2_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6400 CHF",
+      "pid": "1347-902-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-902-2_FP.png 1920w",
+      "availableIn": "Basel, Freie Strasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6800 CHF",
+      "pid": "1347-960-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-960-2_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Turn-O-Graph Certified Pre Owned",
+      "price": "6900 CHF",
+      "pid": "1348-547-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-547-7_FP.png 1920w",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8100 CHF",
+      "pid": "1348-095-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-095-0_FP.png 1920w",
+      "availableIn": "Basel, Freie Strasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8100 CHF",
+      "pid": "1348-082-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-082-5_FP.png 1920w",
+      "availableIn": "Bern, Marktgasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8500 CHF",
+      "pid": "1348-379-9",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-379-9_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8500 CHF",
+      "pid": "1348-378-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-378-8_FP.png 1920w",
       "availableIn": "Luzern, Schwanenplatz"
    },
    {
       "brand": "Rolex",
-      "model": "Pearlmaster Certified Pre Owned",
-      "price": "14500 CHF",
-      "pid": "1350-144-7",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8500 CHF",
+      "pid": "1348-380-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-380-2_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer Certified Pre Owned",
+      "price": "8500 CHF",
+      "pid": "1348-367-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-367-5_FP.png 1920w",
+      "availableIn": "St. Moritz, Via Maistra"
+   },
+   {
+      "brand": "Carl F. Bucherer",
+      "model": "Patravi Certified Pre Owned",
+      "price": "4900 CHF",
+      "pid": "1348-072-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/CARL%20F.%20BUCHERER/Carl%20F.%20Bucherer/Automatic/1348-072-3_FP.png 1920w",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Breguet",
+      "model": "Le Reveil du Tsar Certified Pre Owned",
+      "price": "23000 CHF",
+      "pid": "1348-518-2",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Breguet/Automatic/1348-518-2_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Reduced Certified Pre Owned",
+      "price": "3300 CHF",
+      "pid": "1348-376-6",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-376-6_FP.png 1920w",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10200 CHF",
+      "pid": "1348-369-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-369-7_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10200 CHF",
+      "pid": "1348-090-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-090-5_FP.png 1920w",
+      "availableIn": "Lugano, Via Nassa"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10200 CHF",
+      "pid": "1348-361-9",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-361-9_FP.png 1920w",
+      "availableIn": "Zermatt, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10200 CHF",
+      "pid": "1348-366-4",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-366-4_FP.png 1920w",
+      "availableIn": "Locarno, Piazza Grande"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10200 CHF",
+      "pid": "1348-091-6",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-091-6_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10300 CHF",
+      "pid": "1347-901-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-901-1_FP.png 1920w",
+      "availableIn": "St. Moritz, Via Maistra"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Submariner Certified Pre Owned",
+      "price": "13300 CHF",
+      "pid": "1348-116-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-116-8_FP.png 1920w",
+      "availableIn": "Locarno, Piazza Grande"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "13300 CHF",
+      "pid": "1348-535-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-535-3_FP.png 1920w",
+      "availableIn": "Basel, Freie Strasse"
+   },
+   {
+      "brand": "Girard-Perregaux",
+      "model": "1966 Certified Pre Owned",
+      "price": "6800 CHF",
+      "pid": "1347-893-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/KERING/Girard-Perregaux/Automatic/1347-893-8_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6300 CHF",
+      "pid": "1348-131-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-131-7_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "8000 CHF",
+      "pid": "1347-725-3",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-725-3_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Omega",
+      "model": "Seamaster 300 Certified Pre Owned",
+      "price": "3100 CHF",
+      "pid": "1348-430-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-430-5_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Mark II Certified Pre Owned",
+      "price": "4200 CHF",
+      "pid": "1347-761-7",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1347-761-7_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Prof. Certified Pre Owned",
+      "price": "5300 CHF",
+      "pid": "1348-067-6",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-067-6_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "TAG Heuer",
+      "model": "New Formula 1 Certified Pre Owned",
+      "price": "5700 CHF",
+      "pid": "1347-755-9",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/LVMH/TAG%20Heuer/Automatic/1347-755-9_FP.png 1920w",
+      "availableIn": "Luzern, Schwanenplatz"
+   },
+   {
+      "brand": "Tudor",
+      "model": "Black Bay Bronze Certified Pre Owned",
+      "price": "3200 CHF",
+      "pid": "1347-963-5",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Tudor/Automatic/1347-963-5_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Moon Phase Certified Pre Owned",
+      "price": "5200 CHF",
+      "pid": "1348-073-4",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1348-073-4_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Explorer II Certified Pre Owned",
+      "price": "10200 CHF",
+      "pid": "1347-249-6",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-249-6_FP.png 1920w",
+      "availableIn": "Basel, Freie Strasse"
+   },
+   {
+      "brand": "Omega",
+      "model": "Chronostop Certified Pre Owned",
+      "price": "2300 CHF",
+      "pid": "1345-362-8",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Manual/1345-362-8_FP.png 1920w",
+      "availableIn": "Zürich, Bahnhofstrasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Submariner Certified Pre Owned",
+      "price": "13500 CHF",
+      "pid": "1348-710-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1348-710-0_FP.png 1920w",
+      "availableIn": "Basel, Freie Strasse"
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "7500 CHF",
+      "pid": "1347-756-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1347-756-0_FP.png 1920w",
+      "availableIn": "Lausanne, Rue de Bourg 1"
+   },
+   {
+      "brand": "Omega",
+      "model": "Speedmaster Date Certified Pre Owned",
+      "price": "2800 CHF",
+      "pid": "1348-436-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/SWATCH/Omega/Automatic/1348-436-1_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "Datejust Certified Pre Owned",
+      "price": "6300 CHF",
+      "pid": "1346-885-4",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-885-4_FP.png 1920w",
+      "availableIn": null
+   },
+   {
+      "brand": "Rolex",
+      "model": "GMT-Master Certified Pre Owned",
+      "price": "14300 CHF",
+      "pid": "1346-997-1",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/ROLEX/Rolex/Automatic/1346-997-1_FP.png 1920w",
+      "availableIn": "Genève, Rue du Rhône"
+   },
+   {
+      "brand": "Jaeger-LeCoultre",
+      "model": "Master Control Certified Pre Owned",
+      "price": "7500 CHF",
+      "pid": "1347-390-0",
+      "image": "https://asset.bucherer.com/image/upload/w_320,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 320w, https://asset.bucherer.com/image/upload/w_420,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 420w, https://asset.bucherer.com/image/upload/w_480,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 480w, https://asset.bucherer.com/image/upload/w_640,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 640w, https://asset.bucherer.com/image/upload/w_768,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 768w, https://asset.bucherer.com/image/upload/w_1024,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 1024w, https://asset.bucherer.com/image/upload/w_1366,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 1366w, https://asset.bucherer.com/image/upload/w_1600,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 1600w, https://asset.bucherer.com/image/upload/w_1920,f_auto/Assets/CPO%20Watches/RICHEMONT/Jaeger-LeCoultre/Automatic/1347-390-0_FP.png 1920w",
       "availableIn": "Zürich, Bahnhofstrasse"
    }
 ]

@@ -6,7 +6,7 @@ import fetch from "node-fetch";
   // Helper URLs
   const urlAllProducts =
     "https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
-  const amountOfProductsToScrape = 10;
+  const amountOfProductsToScrape = 100;
   const scrapeUrl = urlAllProducts + amountOfProductsToScrape;
 
   // Setup Puppeteer
@@ -21,6 +21,7 @@ import fetch from "node-fetch";
     var brand = document.querySelectorAll(".m-product-tile__product-brand");
     var model = document.querySelectorAll(".m-product-tile__product-model");
     var price = document.querySelectorAll(".m-product-price__total .value");
+    var image = document.querySelectorAll(".m-product-tile__image img");
 
     var watchArray = [];
 
@@ -48,13 +49,22 @@ import fetch from "node-fetch";
 
       // Get product ID
       const pid = productList[i].getAttribute("data-pid");
+
+      function checkIfAttributeExists(target, attribute) {
+        if (target.getAttribute(attribute)) {
+          return target.getAttribute(attribute);
+        } else {
+          return null;
+        }
+      }
       
       watchArray[i] = {
         brand: brand[i].innerText,
         model: model[i].innerText,
         price: Number(price[i].getAttribute("content")) + " CHF",
         pid: pid,
-        availableIn: await getAvailabilities(pid)
+        image: await checkIfAttributeExists(image[i], "data-srcset"),
+        availableIn: await getAvailabilities(pid),
       };
 
     }
