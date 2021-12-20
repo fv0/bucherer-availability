@@ -6,30 +6,33 @@ import fetch from "node-fetch";
   // Helper URLs
   const urlAllProducts =
     "https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
-  const amountOfProductsToScrape = 100;
+
+  const amountOfProductsToScrape = 400;
   const scrapeUrl = urlAllProducts + amountOfProductsToScrape;
 
   // Setup Puppeteer
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: true
+  });
   const page = await browser.newPage();
   await page.goto(scrapeUrl);
 
   var watches = await page.evaluate(async () => {
-
     // Collect information about all watches
     var productList = document.querySelectorAll(".product-grid .product");
     var brand = document.querySelectorAll(".m-product-tile__product-brand");
     var model = document.querySelectorAll(".m-product-tile__product-model");
-    var price = document.querySelectorAll(".m-product-price__total .value");
     var image = document.querySelectorAll(".m-product-tile__image img");
+    var link = document.querySelectorAll(".m-product-tile__link");
 
     var watchArray = [];
 
+    // See where the watch is available
     async function getAvailabilities(pid) {
       // Request availability for this watch in all stores based on the unique product ID (PID).
       const response = await fetch(
         "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_CH/Store-Availability?pid=" +
-          pid
+        pid
       );
       const data = await response.json();
 
@@ -46,31 +49,21 @@ import fetch from "node-fetch";
     }
 
     for (var i = 0; i < productList.length; i++) {
-
       // Get product ID
       const pid = productList[i].getAttribute("data-pid");
 
-      function checkIfAttributeExists(target, attribute) {
-        if (target.getAttribute(attribute)) {
-          return target.getAttribute(attribute);
-        } else {
-          return null;
-        }
-      }
-      
       watchArray[i] = {
         brand: brand[i].innerText,
         model: model[i].innerText,
-        price: Number(price[i].getAttribute("content")) + " CHF",
         pid: pid,
-        image: await checkIfAttributeExists(image[i], "data-srcset"),
+        image: image[i].getAttribute("data-srcset"),
         availableIn: await getAvailabilities(pid),
+        href: link[i].getAttribute("href")
       };
-
     }
     return watchArray;
   });
-  
+
   const exportFileName = "watches.json";
 
   // Write array with watch information into a JSON file
