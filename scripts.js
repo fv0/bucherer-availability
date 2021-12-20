@@ -19,10 +19,12 @@ function appendData(data) {
       .value()
   ;
 
-  console.log(newData);
-
   // Show in HTML
   var mainContainer = document.getElementById("myData");
+  
+  var totalAmountOfWatches = document.createElement("span");
+  totalAmountOfWatches.innerHTML = `${data.length} watches in total`;
+  mainContainer.appendChild(totalAmountOfWatches);
 
   function createWatchElement(HTMLelement, theClassName, innerHTML, appendTo) {
     var CSSClass = theClassName;
@@ -33,9 +35,14 @@ function appendData(data) {
   }
 
   for (var i = 0; i < newData.length; i++) {
+    
     var location = document.createElement("h1");
     location.innerHTML = newData[i].availableIn;
     mainContainer.appendChild(location);
+
+    var amountPerLocation = document.createElement("span");
+    amountPerLocation.innerHTML = ` (${newData[i].watches.length} watches)`;
+    location.appendChild(amountPerLocation);
     
     var list = document.createElement("ul");
     mainContainer.appendChild(list);
@@ -49,12 +56,13 @@ function appendData(data) {
 
       createWatchElement("span", "brand", newData[i].watches[n].brand, watchData);
       createWatchElement("a", "model", newData[i].watches[n].model, watchData);
-      // createWatchElement("span", "price", newData[i].watches[n].price, watchData);
+      createWatchElement("span", "price", `${newData[i].watches[n].price} CHF`, watchData);
 
       // Create image
       var img = document.createElement("img");
       img.srcset = newData[i].watches[n].image;
       img.className = "watch-image";
+      img.setAttribute("loading", "lazy");
       listItem.appendChild(img);
       
       // Create link

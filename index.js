@@ -7,7 +7,7 @@ import fetch from "node-fetch";
   const urlAllProducts =
     "https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
 
-  const amountOfProductsToScrape = 400;
+  const amountOfProductsToScrape = 600;
   const scrapeUrl = urlAllProducts + amountOfProductsToScrape;
 
   // Setup Puppeteer
@@ -52,10 +52,14 @@ import fetch from "node-fetch";
       // Get product ID
       const pid = productList[i].getAttribute("data-pid");
 
+      var price = link[i].getAttribute("data-tracking");
+      var priceJson = JSON.parse(price);
+
       watchArray[i] = {
         brand: brand[i].innerText,
         model: model[i].innerText,
         pid: pid,
+        price: priceJson.price,
         image: image[i].getAttribute("data-srcset"),
         availableIn: await getAvailabilities(pid),
         href: link[i].getAttribute("href")
