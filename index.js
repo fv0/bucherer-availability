@@ -4,6 +4,7 @@ import fetch from "node-fetch";
 
 (async () => {
   // Helper URLs
+  // Germany: https://www.bucherer.com/de/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=
   const urlAllProducts =
     "https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
 
@@ -12,7 +13,7 @@ import fetch from "node-fetch";
 
   // Setup Puppeteer
   const browser = await puppeteer.launch({
-    headless: true
+    headless: true,
   });
   const page = await browser.newPage();
   await page.goto(scrapeUrl);
@@ -30,9 +31,10 @@ import fetch from "node-fetch";
     // See where the watch is available
     async function getAvailabilities(pid) {
       // Request availability for this watch in all stores based on the unique product ID (PID).
+      // Germany: https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_DE/Store-Availability?pid=
       const response = await fetch(
         "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_CH/Store-Availability?pid=" +
-        pid
+          pid
       );
       const data = await response.json();
 
@@ -62,7 +64,7 @@ import fetch from "node-fetch";
         price: priceJson.price,
         image: image[i].getAttribute("data-srcset"),
         availableIn: await getAvailabilities(pid),
-        href: link[i].getAttribute("href")
+        href: link[i].getAttribute("href"),
       };
     }
     return watchArray;
