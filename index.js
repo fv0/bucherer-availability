@@ -2,16 +2,18 @@ import puppeteer from "puppeteer";
 import * as fs from "fs";
 import fetch from "node-fetch";
 
-(async () => {
-  // Helper URLs
-  // Germany: 
-  const germanyAllProducts = "https://www.bucherer.com/de/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
-  const switzerlandAllProducts =
-    "https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=";
-  const urlAllProducts = germanyAllProducts;
 
+
+(async () => {
   const amountOfProductsToScrape = 386;
-  const scrapeUrl = urlAllProducts + amountOfProductsToScrape;
+  
+  var products = {
+    de: `https://www.bucherer.com/de/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=${amountOfProductsToScrape}`,
+    ch: `https://www.bucherer.com/ch/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=${amountOfProductsToScrape}`,
+  };
+
+  // Helper URLs
+  const scrapeUrl = products.de;
 
   // Setup Puppeteer
   const browser = await puppeteer.launch({
@@ -22,23 +24,23 @@ import fetch from "node-fetch";
 
   var watches = await page.evaluate(async () => {
     // Collect information about all watches
-    var productList = document.querySelectorAll(".product-grid .product");
-    var brand = document.querySelectorAll(".m-product-tile__product-brand");
-    var model = document.querySelectorAll(".m-product-tile__product-model");
-    var image = document.querySelectorAll(".m-product-tile__image img");
-    var link = document.querySelectorAll(".m-product-tile__link");
+    const productList = document.querySelectorAll(".product-grid .product");
+    const brand = document.querySelectorAll(".m-product-tile__product-brand");
+    const model = document.querySelectorAll(".m-product-tile__product-model");
+    const image = document.querySelectorAll(".m-product-tile__image img");
+    const link = document.querySelectorAll(".m-product-tile__link");
 
     var watchArray = [];
 
     // See where the watch is available
     async function getAvailabilities(pid) {
+      var availabilities = {
+        de: "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_DE/Store-Availability?pid=",
+        ch: "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_CH/Store-Availability?pid=",
+      };
+
       // Request availability for this watch in all stores based on the unique product ID (PID).
-      var germanyAvailabilities = "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_DE/Store-Availability?pid=";
-      var switzerlandAvailabilities =
-        "https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/de_CH/Store-Availability?pid=";
-      const response = await fetch(
-        germanyAvailabilities + pid
-      );
+      const response = await fetch(availabilities.de + pid);
       const data = await response.json();
 
       let availabilityResponse = null;
