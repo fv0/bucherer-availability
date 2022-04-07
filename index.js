@@ -46,7 +46,6 @@ import { generatePrimeSync } from "crypto";
       const productList = document.querySelectorAll(".product-grid .product");
       const brand = document.querySelectorAll(".m-product-tile__product-brand");
       const model = document.querySelectorAll(".m-product-tile__product-model");
-      const image = document.querySelectorAll(".m-product-tile__image img");
       const link = document.querySelectorAll(".m-product-tile__link");
 
       var watchArray = [];
@@ -60,6 +59,7 @@ import { generatePrimeSync } from "crypto";
         const response = await fetch(urlStoreAvailability);
         const data = await response.json();
 
+        // Default if there is no store with in stock availability
         let availabilityResponse = "Not available in stores";
 
         for (var i = 0; i < data.stores.length; i++) {
@@ -86,12 +86,11 @@ import { generatePrimeSync } from "crypto";
           image: getImage,
           price: getPrice,
           availableIn: await getAvailabilities(pid),
-          // href: link[i].getAttribute("href"),
+          href: link[i].getAttribute("href"),
           crawledOn: Date.now()
         };
-
-         
       }
+
       return watchArray;
     });
 
