@@ -27,14 +27,6 @@ function appendData(data) {
   totalAmountOfWatches.innerHTML = `${data.length} watches in total`;
   mainContainer.appendChild(totalAmountOfWatches);
 
-  function createWatchElement(HTMLelement, theClassName, innerHTML, appendTo) {
-    var CSSClass = theClassName;
-    var theClassName = document.createElement(HTMLelement);
-    theClassName.className = `watch-${CSSClass}`;
-    theClassName.innerHTML = innerHTML;
-    appendTo.appendChild(theClassName);
-  }
-
   for (var i = 0; i < newData.length; i++) {
     var storeContainer = document.createElement("section");
     storeContainer.className = "store";
@@ -81,33 +73,40 @@ function appendData(data) {
       listItem.appendChild(watchData);
 
       // Create brand
-      createWatchElement(
-        "span",
-        "brand",
-        newData[i].watches[n].brand,
-        watchData
-      );
-      // Create brand
-      createWatchElement("span", "model", newData[i].watches[n].model, watchData);
+      var brand = document.createElement("span");
+      Object.assign(brand, {
+        innerHTML: newData[i].watches[n].brand,
+        className: "watch_brand"
+      });
+      watchData.appendChild(brand);
       
+      // Create model
+      var model = document.createElement("span");
+      Object.assign(model, {
+        innerHTML: newData[i].watches[n].model,
+        className: "watch_model",
+      });
+      watchData.appendChild(model);
+      
+      // Create price
       const formatToCHF = new Intl.NumberFormat("de-CH", {
         style: "currency",
         currency: "CHF",
         minimumFractionDigits: 0,
       });
 
-      createWatchElement(
-        "span",
-        "price",
-        formatToCHF.format(`${newData[i].watches[n].price}`),
-        watchData
-      );
+      var price = document.createElement("span");
+      Object.assign(price, {
+        innerHTML: formatToCHF.format(`${newData[i].watches[n].price}`),
+        className: "watch_price",
+      });
+      watchData.appendChild(price);
 
       // Create image
       var img = document.createElement("img");
       Object.assign(img, {
         srcset: newData[i].watches[n].image,
-        className: "watch-image",
+        className: "watch_image",
         loading: "lazy",
       });
       listItem.appendChild(img);

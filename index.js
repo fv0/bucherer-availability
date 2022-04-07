@@ -1,7 +1,6 @@
 import puppeteer from "puppeteer";
 import * as fs from "fs";
 import fetch from "node-fetch";
-import { generatePrimeSync } from "crypto";
 
 (async () => {
   
@@ -41,7 +40,6 @@ import { generatePrimeSync } from "crypto";
     );
 
     var watches = await page.evaluate(async () => {
-      console.log("Getting information about all watches…")
       // Collect information about all watches
       const productList = document.querySelectorAll(".product-grid .product");
       const brand = document.querySelectorAll(".m-product-tile__product-brand");
