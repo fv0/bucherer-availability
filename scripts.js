@@ -36,6 +36,10 @@ function appendData(data) {
   }
 
   for (var i = 0; i < newData.length; i++) {
+    var storeContainer = document.createElement("section");
+    storeContainer.className = "store";
+    mainContainer.appendChild(storeContainer);
+
     // Show when the watches where last updated
     var crawledOn = document.createElement("p");
     // First data entry is sufficient, since all date strings are the same
@@ -44,25 +48,29 @@ function appendData(data) {
     crawledOn.innerHTML = `Updated on: ${whenUpdatedFormatted.toLocaleDateString(
       "de-CH"
     )} at ${whenUpdatedFormatted.toLocaleTimeString("de-CH")}`;
-    mainContainer.appendChild(crawledOn);
     crawledOn.className = "crawledOn";
+    storeContainer.appendChild(crawledOn);
 
     // Add the store
     var location = document.createElement("h2");
-    location.className = "store"
-    location.innerHTML = newData[i].availableIn;
-    mainContainer.appendChild(location);
+    Object.assign(location, {
+      className: "store_name",
+      innerHTML: newData[i].availableIn
+    });
+    storeContainer.appendChild(location);
 
     // …and how many watches this location has
     var amountPerLocation = document.createElement("span");
-    amountPerLocation.className = "amountPerStore";
-    amountPerLocation.innerHTML = `${newData[i].watches.length}`;
+    Object.assign(amountPerLocation, {
+      className: "amountPerStore",
+      innerHTML: `${newData[i].watches.length}`
+    });
     location.appendChild(amountPerLocation);
 
     // Create the list
     var list = document.createElement("ul");
     list.className = "watches";
-    mainContainer.appendChild(list);
+    storeContainer.appendChild(list);
 
     for (var n = 0; n < newData[i].watches.length; n++) {
       var listItem = document.createElement("li");
@@ -97,19 +105,21 @@ function appendData(data) {
 
       // Create image
       var img = document.createElement("img");
-      img.srcset = newData[i].watches[n].image;
-      img.className = "watch-image";
-      img.setAttribute("loading", "lazy");
+      Object.assign(img, {
+        srcset: newData[i].watches[n].image,
+        className: "watch-image",
+        loading: "lazy",
+      });
       listItem.appendChild(img);
 
       // Create link
       var watchLink = document.createElement("a");
-      watchLink.setAttribute(
-        "href",
-        `https://www.bucherer.com${newData[i].watches[n].href}`
-      );
-      watchLink.className = "watch_link";
-      watchLink.innerHTML = "More information";
+      Object.assign(watchLink, {
+        href: `https://www.bucherer.com${newData[i].watches[n].href}`,
+        className: "watch_link",
+        innerHTML: "More information"
+      });
+      
       watchData.appendChild(watchLink);
     }
   }
