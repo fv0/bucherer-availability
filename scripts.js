@@ -45,39 +45,53 @@ function appendData(data) {
       "de-CH"
     )} at ${whenUpdatedFormatted.toLocaleTimeString("de-CH")}`;
     mainContainer.appendChild(crawledOn);
+    crawledOn.className = "crawledOn";
 
-    // Add the location
-    var location = document.createElement("h1");
+    // Add the store
+    var location = document.createElement("h2");
+    location.className = "store"
     location.innerHTML = newData[i].availableIn;
     mainContainer.appendChild(location);
 
     // …and how many watches this location has
     var amountPerLocation = document.createElement("span");
-    amountPerLocation.innerHTML = ` (${newData[i].watches.length} watches)`;
+    amountPerLocation.className = "amountPerStore";
+    amountPerLocation.innerHTML = `${newData[i].watches.length}`;
     location.appendChild(amountPerLocation);
 
     // Create the list
     var list = document.createElement("ul");
+    list.className = "watches";
     mainContainer.appendChild(list);
 
     for (var n = 0; n < newData[i].watches.length; n++) {
       var listItem = document.createElement("li");
+      listItem.className = "watch_item";
       list.appendChild(listItem);
 
       var watchData = document.createElement("div");
       listItem.appendChild(watchData);
 
+      // Create brand
       createWatchElement(
         "span",
         "brand",
         newData[i].watches[n].brand,
         watchData
       );
-      createWatchElement("a", "model", newData[i].watches[n].model, watchData);
+      // Create brand
+      createWatchElement("span", "model", newData[i].watches[n].model, watchData);
+      
+      const formatToCHF = new Intl.NumberFormat("de-CH", {
+        style: "currency",
+        currency: "CHF",
+        minimumFractionDigits: 0,
+      });
+
       createWatchElement(
         "span",
         "price",
-        `${newData[i].watches[n].price} CHF`,
+        formatToCHF.format(`${newData[i].watches[n].price}`),
         watchData
       );
 
@@ -94,8 +108,8 @@ function appendData(data) {
         "href",
         `https://www.bucherer.com${newData[i].watches[n].href}`
       );
-      watchLink.className = "watch-link";
-      watchLink.innerHTML = "Link";
+      watchLink.className = "watch_link";
+      watchLink.innerHTML = "More information";
       watchData.appendChild(watchLink);
     }
   }
