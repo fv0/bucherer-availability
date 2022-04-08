@@ -4,6 +4,32 @@ import fetch from "node-fetch";
 
 (async () => {
   
+  var countryList = {
+    germany: {
+      countryCode: "de",
+      lang: "de",
+      fullCountryCode: "de_DE",
+    },
+    switzerland: {
+      countryCode: "ch",
+      lang: "de",
+      fullCountryCode: "de_CH",
+    },
+    austria: {
+      countryCode: "at",
+      lang: "de",
+      fullCountryCode: "de_AT",
+    },
+    france: {
+      countryCode: "fr",
+      lang: "fr",
+      fullCountryCode: "fr_FR",
+    },
+  };
+
+  // User configuration, choose from countryList, watch for correct spelling.
+  var country = "switzerland";
+
   // Setup Puppeteer
   const browser = await puppeteer.launch({
     headless: true
@@ -11,11 +37,10 @@ import fetch from "node-fetch";
 
   try {
     const pageGetAmountOfResults = await browser.newPage();
-
-    var country = "ch"; // ch or de
+    pageGetAmountOfResults.on("pageerror", (err) => console.log(err));
 
     await pageGetAmountOfResults.goto(
-      `https://www.bucherer.com/${country}/de/buy-certifiedpreowned`,
+      `https://www.bucherer.com/${countryList[`${country}`].countryCode}/${countryList[`${country}`].lang}/buy-certifiedpreowned`,
       { waitUntil: "domcontentloaded" }
     );
 
@@ -29,17 +54,21 @@ import fetch from "node-fetch";
       }
     );
     // const amountOfProductsToScrape = 20;
-    console.log(`Scraping ${amountOfProductsToScrape} watches from Bucherer’s ${country}-shop…`);
+    console.log(
+      `Getting information about ${amountOfProductsToScrape} watches from Bucherer’s online shop in ${country}…`
+    );
 
     // Now that we have the amount of products, let’s construct the new URL that all products are shown.
     const page = await browser.newPage();
+    // Log errors
+    page.on("pageerror", (err) => console.log(err));
 
     await page.goto(
-      `https://www.bucherer.com/${country}/de/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=${amountOfProductsToScrape}`,
+      `https://www.bucherer.com/${countryList[`${country}`].countryCode}/${countryList[`${country}`].lang}/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=${amountOfProductsToScrape}`,
       { waitUntil: "domcontentloaded" }
     );
 
-    var watches = await page.evaluate(async () => {
+    var watches = await page.evaluate(async (countryList, country) => {
       // Collect information about all watches
       const productList = document.querySelectorAll(".product-grid .product");
       const brand = document.querySelectorAll(".m-product-tile__product-brand");
@@ -50,10 +79,10 @@ import fetch from "node-fetch";
 
       // See where the watch is available
       async function getAvailabilities(pid) {
-        var country = "de_CH"; /// de_DE or de_CH
+        // var country = "de_CH"; /// de_DE or de_CH
 
         // Request availability for this watch in all stores based on the unique product ID (PID).
-        var urlStoreAvailability = `https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/${country}/Store-Availability?pid=${pid}`;
+        let urlStoreAvailability = `https://www.bucherer.com/on/demandware.store/Sites-bucherer-Site/${countryList[`${country}`].fullCountryCode}/Store-Availability?pid=${pid}`;
         const response = await fetch(urlStoreAvailability);
         const data = await response.json();
 
@@ -74,8 +103,12 @@ import fetch from "node-fetch";
         // Get uniqe product ID of watch (PID)
         const pid = productList[i].getAttribute("data-pid");
 
-        const getPrice = JSON.parse(link[i].getAttribute("data-tracking")).originalPrice;
-        const getImage = JSON.parse(link[i].getAttribute("data-tracking")).images;
+        const getPrice = JSON.parse(
+          link[i].getAttribute("data-tracking")
+        ).originalPrice;
+        const getImage = JSON.parse(
+          link[i].getAttribute("data-tracking")
+        ).images;
 
         watchArray[i] = {
           brand: brand[i].innerText,
@@ -85,12 +118,12 @@ import fetch from "node-fetch";
           price: getPrice,
           availableIn: await getAvailabilities(pid),
           href: link[i].getAttribute("href"),
-          crawledOn: Date.now()
+          crawledOn: Date.now(),
         };
       }
 
       return watchArray;
-    });
+    }, countryList, country);
 
     const exportFileName = "watches.json";
 
