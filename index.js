@@ -36,6 +36,7 @@ import fetch from "node-fetch";
   });
 
   try {
+    // Open CPO page and see how many results there are
     const pageGetAmountOfResults = await browser.newPage();
     pageGetAmountOfResults.on("pageerror", (err) => console.log(err));
 
@@ -53,13 +54,14 @@ import fetch from "node-fetch";
         return Number(n) - 2;
       }
     );
-    // const amountOfProductsToScrape = 20;
+
     console.log(
       `Getting information about ${amountOfProductsToScrape} watches from Bucherer’s online shop in ${country}…`
     );
 
-    // Now that we have the amount of products, let’s construct the new URL that all products are shown.
+    // Now that we have the amount of results, let’s construct the new URL that all products are shown.
     const page = await browser.newPage();
+
     // Log errors
     page.on("pageerror", (err) => console.log(err));
 
@@ -103,6 +105,7 @@ import fetch from "node-fetch";
         // Get uniqe product ID of watch (PID)
         const pid = productList[i].getAttribute("data-pid");
 
+        // Get price and image from inline data object
         const getPrice = JSON.parse(
           link[i].getAttribute("data-tracking")
         ).originalPrice;
