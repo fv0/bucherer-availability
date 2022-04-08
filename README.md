@@ -1,4 +1,4 @@
-![Screenshot](https://abload.de/img/screenshot2022-04-08a9ekpb.png)
+![Screenshot](https://abload.de/img/kapture2022-04-08at09ackj1.gif)
 
 # Check watch availability of Bucherer CPO watches
 
