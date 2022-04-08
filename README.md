@@ -1,6 +1,10 @@
-![Screenshot](https://abload.de/img/kapture2022-04-08at09ackj1.gif)
-
 # Check watch availability of Bucherer CPO watches
+
+Click image for animated video.
+
+<a href="https://abload.de/img/kapture2022-04-08at09ackj1.gif" target="_blank">
+   <img src="https://abload.de/img/screenshot2022-04-08a9ekpb.png">
+</a>
 
 I wrote this website to play around with [Puppeteer](https://developers.google.com/web/tools/puppeteer/).
 
