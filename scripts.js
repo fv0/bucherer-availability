@@ -11,17 +11,14 @@ fetch("watches.json")
 
 function appendData(data) {
   // Sort the incoming data by a specific key
-  const newData = 
-    _.chain(data)
-      // Group the elements of Array based on `color` property
-      .groupBy("availableIn")
-      // `key` is group's name (color), `value` is the array of objects
-      .map((value, key) => ({ availableIn: key, watches: value }))
-      .value()
-  ;
-
+  const newData = _.chain(data)
+    // Group the elements of Array based on `color` property
+    .groupBy("availableIn")
+    // `key` is group's name (color), `value` is the array of objects
+    .map((value, key) => ({ availableIn: key, watches: value }))
+    .value();
   var mainContainer = document.getElementById("myData");
-  
+
   // Show total amount of watches
   var totalAmountOfWatches = document.createElement("p");
   totalAmountOfWatches.innerHTML = `${data.length} watches in total`;
@@ -47,7 +44,7 @@ function appendData(data) {
     var location = document.createElement("h2");
     Object.assign(location, {
       className: "store_name",
-      innerHTML: newData[i].availableIn
+      innerHTML: newData[i].availableIn,
     });
     storeContainer.appendChild(location);
 
@@ -55,7 +52,7 @@ function appendData(data) {
     var amountPerLocation = document.createElement("span");
     Object.assign(amountPerLocation, {
       className: "amountPerStore",
-      innerHTML: `${newData[i].watches.length}`
+      innerHTML: `${newData[i].watches.length}`,
     });
     location.appendChild(amountPerLocation);
 
@@ -76,10 +73,10 @@ function appendData(data) {
       var brand = document.createElement("span");
       Object.assign(brand, {
         innerHTML: newData[i].watches[n].brand,
-        className: "watch_brand"
+        className: "watch_brand",
       });
       watchData.appendChild(brand);
-      
+
       // Create model
       var model = document.createElement("span");
       Object.assign(model, {
@@ -87,7 +84,7 @@ function appendData(data) {
         className: "watch_model",
       });
       watchData.appendChild(model);
-      
+
       // Create price
       const formatToCHF = new Intl.NumberFormat("de-CH", {
         style: "currency",
@@ -102,24 +99,73 @@ function appendData(data) {
       });
       watchData.appendChild(price);
 
+      // Create reference number
+      var referenceNumber = document.createElement("span");
+      Object.assign(referenceNumber, {
+        innerHTML: `Ref. ${newData[i].watches[n].referenceNumber}`,
+        className: "watch_referenceNumber",
+      });
+      watchData.appendChild(referenceNumber);
+
+      // Meta description information
+      var metaInfo = document.createElement("aside");
+      watchData.appendChild(metaInfo);
+
+      // Create winding mechanism
+      var windingMechanism = document.createElement("span");
+      Object.assign(windingMechanism, {
+        innerHTML: `${newData[i].watches[n].windingMechanism}`,
+        className: "watch_windingMechanism",
+      });
+      metaInfo.appendChild(windingMechanism);
+
+      // Create watch material
+      var material = document.createElement("span");
+      Object.assign(material, {
+        innerHTML: `${newData[i].watches[n].material}`,
+        className: "watch_material",
+      });
+      metaInfo.appendChild(material);
+
       // Create image
       var img = document.createElement("img");
+      var imgContainer = document.createElement("a");
       Object.assign(img, {
         srcset: newData[i].watches[n].image,
         className: "watch_image",
-        loading: "lazy",
+        id: `image-${newData[i].watches[n].pid}`,
       });
-      listItem.appendChild(img);
+      Object.assign(imgContainer, {
+        href: newData[i].watches[n].image,
+      });
+      listItem.appendChild(imgContainer);
+      imgContainer.appendChild(img);
 
       // Create link
       var watchLink = document.createElement("a");
       Object.assign(watchLink, {
         href: `https://www.bucherer.com${newData[i].watches[n].href}`,
         className: "watch_link",
-        innerHTML: "More information"
+        innerHTML: "More information ↗",
       });
-      
+
       watchData.appendChild(watchLink);
     }
   }
+
 }
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  // Get height and width of images
+  var allImages = document.getElementsByClassName("watch_image");
+
+  for (let i = 0; i < allImages.length; i++) {
+    const imgWidth = allImages[i].naturalWidth;
+    const imgHeight = allImages[i].naturalHeight;
+    // Get parent (the a-tag)
+    const parent = allImages[i].parentNode;
+    parent.setAttribute("data-pswp-width", imgWidth);
+    parent.setAttribute("data-pswp-height", imgHeight);
+  }
+});
+

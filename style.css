@@ -1,3 +1,7 @@
+:root {
+  --fontSizeSmall: 0.75rem;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background: gainsboro;
@@ -17,7 +21,7 @@ img {
 }
 
 .watch_brand {
-  font-size: 12px;
+  font-size: var(--fontSizeSmall);
   text-transform: uppercase;
   display: flex;
   font-weight: bold;
@@ -32,11 +36,11 @@ img {
   position: absolute;
   top: 0.25rem;
   right: 0;
-  font-size: 12px;
+  font-size: var(--fontSizeSmall);
   margin-top: 0.5rem;
   border: calc(1 / 16 * 1rem) solid gainsboro;
   border-right: none;
-  padding: 0.25rem 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .watch_image {
@@ -44,7 +48,38 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
+  transition: transform 0.1s linear;
 }
+
+.watch_image:hover {
+  transform: scale(1.05);
+}
+
+.watch_referenceNumber {
+  font-family: ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-size: var(--fontSizeSmall);
+  background: whitesmoke;
+  padding: 0 0.25rem;
+  border: calc(1 / 16 * 1rem) solid gainsboro;
+}
+
+.watch_windingMechanism,
+.watch_material {
+  display: inline-flex;
+  font-size: var(--fontSizeSmall);
+  margin-top: 0.5rem;
+}
+
+.watch_windingMechanism:after {
+  content: "•";
+  display: inline-flex;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+
 
 .amountPerStore {
   display: inline-flex;
@@ -62,7 +97,8 @@ img {
 }
 
 .crawledOn {
-  font-size: calc(1rem * 0.8);
+  font-size: var(--fontSizeSmall);
+  color: gray;
 }
 
 .store {
@@ -70,6 +106,7 @@ img {
 }
 
 .store_name {
+  display: flex;
   margin-top: 3rem;
   position: sticky;
   z-index: 1;
@@ -81,6 +118,7 @@ img {
   padding: 1rem;
   margin-left: -1rem;
   margin-right: -1rem;
+  box-shadow: 0 calc(4 / 16 * 1rem) 0 rgba(0, 0, 0, 0.25);
 }
 
 .watches {
@@ -114,6 +152,7 @@ img {
   color: cornflowerblue;
   text-decoration: none;
   display: block;
+  width: 100%;
   margin-top: 0.5rem;
 }
 

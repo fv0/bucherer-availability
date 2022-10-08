@@ -31,6 +31,7 @@ Instructions are based on macOS.
    ```bash
    $ npm install
    ```
+3. Maybe install PHP, newer macOS versions don’t have it. Best to install php with Homebrew (`brew install php`).
 3. Execute the NodeJS script that will scrape the watches from Bucherer’s CPO website.
    ```bash
    $ node index.js

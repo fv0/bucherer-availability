@@ -29,6 +29,13 @@ import fetch from "node-fetch";
 
   // User configuration, choose from countryList, watch for correct spelling.
   var country = "switzerland";
+  var specificYear = 0; // Enter 0 (zero) if all years should be searched
+  
+  // Generate the part of the URL needed to search for a specific year
+  var urlSpecificYear = "";
+  if (specificYear > 0) {
+    urlSpecificYear = `&prefn1=att_CPO_Year_of_Publication&prefv1=${specificYear}`;
+  }
 
   // Setup Puppeteer
   const browser = await puppeteer.launch({
@@ -40,8 +47,12 @@ import fetch from "node-fetch";
     const pageGetAmountOfResults = await browser.newPage();
     pageGetAmountOfResults.on("pageerror", (err) => console.log(err));
 
+    // Use variables to make this easier readable
+    var urlCountryCode = `${countryList[`${country}`].countryCode}`;
+    var urlLang = `${countryList[`${country}`].lang}`;
+
     await pageGetAmountOfResults.goto(
-      `https://www.bucherer.com/${countryList[`${country}`].countryCode}/${countryList[`${country}`].lang}/buy-certifiedpreowned`,
+      `https://www.bucherer.com/${urlCountryCode}/${urlLang}/buy-certifiedpreowned`,
       { waitUntil: "domcontentloaded" }
     );
 
@@ -65,8 +76,13 @@ import fetch from "node-fetch";
     // Log errors
     page.on("pageerror", (err) => console.log(err));
 
+    var fullUrl = `https://www.bucherer.com/${urlCountryCode}/${urlLang}/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=${amountOfProductsToScrape}${urlSpecificYear}`;
+    console.log(
+      `Getting watch data from URL: ${fullUrl}`
+    );
+
     await page.goto(
-      `https://www.bucherer.com/${countryList[`${country}`].countryCode}/${countryList[`${country}`].lang}/buy-certifiedpreowned?srule=searching-result-sorting&start=0&sz=${amountOfProductsToScrape}`,
+      fullUrl,
       { waitUntil: "domcontentloaded" }
     );
 
@@ -105,19 +121,35 @@ import fetch from "node-fetch";
         // Get uniqe product ID of watch (PID)
         const pid = productList[i].getAttribute("data-pid");
 
-        // Get price and image from inline data object
+        // Get price from inline data object
         const getPrice = JSON.parse(
           link[i].getAttribute("data-tracking")
         ).originalPrice;
+        // Get image from inline data object
         const getImage = JSON.parse(
           link[i].getAttribute("data-tracking")
         ).images;
+        // Get reference number from inline data object
+        const getReferenceNumber = JSON.parse(
+          link[i].getAttribute("data-tracking")
+        ).variant;
+        // Get winding mechanism from inline data object
+        const getWindingMechanism = JSON.parse(
+          link[i].getAttribute("data-tracking")
+        ).dimension22;
+        // Get material of watch from inline data object
+        const getMaterial = JSON.parse(
+          link[i].getAttribute("data-tracking")
+        ).dimension23;
 
         watchArray[i] = {
           brand: brand[i].innerText,
-          model: model[i].innerText.replace("Certified Pre Owned", ""),
+          model: model[i].innerText.replace("Certified Pre-Owned", ""),
           pid: pid,
           image: getImage,
+          referenceNumber: getReferenceNumber,
+          windingMechanism: getWindingMechanism,
+          material: getMaterial,
           price: getPrice,
           availableIn: await getAvailabilities(pid),
           href: link[i].getAttribute("href"),

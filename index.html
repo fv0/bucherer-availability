@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Check CPO watch availability in Bucherer stores</title>
     <script src="lodash.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/photoswipe.css">
   </head>
   <body>
     <header>
@@ -13,10 +14,19 @@
         Check store availabilities of Bucherer’s CPO watches
       </h1>
       <p>
-        Search for a store, city or specific brand/model by using your browser’s search and find functionality: <kbd>⌘ + F</kbd>
+        🔎 Search for a store, city or specific brand/model by using your browser’s search and find functionality: <kbd>⌘ + F</kbd>
       </p>
     </header>
     <div id="myData"></div>
     <script src="scripts.js"></script>
+    <script type="module">
+      import PhotoSwipeLightbox from '/photoswipe-lightbox.esm.min.js';
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: '.watch_item',
+        children: 'a',
+        pswpModule: () => import('/photoswipe.esm.min.js')
+      });
+      lightbox.init();
+    </script>
 </body>
 </html>
