@@ -24,7 +24,7 @@
       import PhotoSwipeLightbox from '/photoswipe-lightbox.esm.min.js';
       const lightbox = new PhotoSwipeLightbox({
         gallery: '.watch_item',
-        children: 'a',
+        children: '.watch_zoomImage',
         pswpModule: () => import('/photoswipe.esm.min.js')
       });
       lightbox.init();

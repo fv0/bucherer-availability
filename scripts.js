@@ -147,6 +147,7 @@ function appendData(data) {
         href: `https://www.bucherer.com${newData[i].watches[n].href}`,
         className: "watch_link",
         innerHTML: "More information ↗",
+        target: "_blank"
       });
 
       watchData.appendChild(watchLink);
@@ -166,6 +167,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const parent = allImages[i].parentNode;
     parent.setAttribute("data-pswp-width", imgWidth);
     parent.setAttribute("data-pswp-height", imgHeight);
+    parent.setAttribute("class", "watch_zoomImage");
   }
 });
 
